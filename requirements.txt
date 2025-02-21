@@ -1,0 +1,7 @@
+google-generativeai
+pytest
+Flask
+PyYAML
+pdfkit
+markdown2
+accelerate

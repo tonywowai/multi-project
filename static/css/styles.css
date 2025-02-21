@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-content {
+    white-space: pre-wrap; /* Ensures that the content wraps and preserves whitespace */
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    overflow-wrap: break-word; /* Ensures long words are wrapped */
+    word-wrap: break-word; /* Older property for compatibility */
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.home-button {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+}
