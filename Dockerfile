@@ -18,7 +18,7 @@ RUN pip install --upgrade --force-reinstall --no-cache-dir torch==2.1.1 triton  
 COPY . .
 COPY ./requirements.txt requirements.txt
 
-RUN python -m pip install -r app.txt
+RUN python -m pip install -r requirements.txt
 # Cleanup step  
 RUN apt-get remove -y git build-essential && \  
     apt-get autoremove -y && \  
