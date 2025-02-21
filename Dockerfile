@@ -27,7 +27,7 @@ RUN apt-get remove -y git build-essential && \
 
 # Application setup
 WORKDIR /app
-COPY api ./api
+# COPY api ./api
 EXPOSE 9090
 
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "9090", "--reload"]  
